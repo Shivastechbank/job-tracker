@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background: #f4f6f8;
+    padding: 30px;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+
+h2 {
+    margin: 25px 0 15px;
+    color: #333;
+}
+
+
+/* Dashboard */
+
+.dashboard {
+
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.card {
+
+    background: white;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+
+}
+
+
+.card p {
+
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+
+
+/* Form */
+
+form {
+
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+
+    max-width: 600px;
+
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+
+
+input,
+select,
+textarea {
+
+    padding: 12px;
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+
+}
+
+
+textarea {
+
+    height: 100px;
+    resize: none;
+
+}
+
+
+
+button {
+
+    padding: 12px;
+
+    background: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+}
+
+
+button:hover {
+
+    background: #1d4ed8;
+
+}
+
+
+
+/* Applications */
+
+
+#applications {
+
+    max-width: 900px;
+
+    margin: auto;
+
+}
+
+
+
+.application-card {
+
+    background: white;
+
+    padding: 20px;
+
+    margin: 15px 0;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+
+}
+
+
+.delete-btn {
+
+    margin-top: 10px;
+
+    background: #dc2626;
+
+}
+
+.filters {
+
+    max-width:600px;
+
+    margin:20px auto;
+
+    display:flex;
+
+    gap:15px;
+
+}

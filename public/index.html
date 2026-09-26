@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JobTrack</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>JobTrack</h1>
+
+    <div class="dashboard">
+
+        <div class="card">
+            <h3>Total</h3>
+            <p id="total">0</p>
+        </div>
+
+        <div class="card">
+            <h3>Applied</h3>
+            <p id="applied">0</p>
+        </div>
+
+        <div class="card">
+            <h3>Interview</h3>
+            <p id="interview">0</p>
+        </div>
+
+        <div class="card">
+            <h3>Offer</h3>
+            <p id="offer">0</p>
+        </div>
+
+        <div class="card">
+            <h3>Rejected</h3>
+            <p id="rejected">0</p>
+        </div>
+
+    </div>
+
+
+    <h2>Add Application</h2>
+
+
+    <form id="applicationForm">
+
+        <input 
+        type="text"
+        id="company"
+        placeholder="Company"
+        required>
+
+
+        <input 
+        type="text"
+        id="role"
+        placeholder="Role"
+        required>
+
+
+        <input 
+        type="text"
+        id="location"
+        placeholder="Location">
+
+
+        <input 
+        type="date"
+        id="date">
+
+
+        <select id="status">
+
+            <option value="Applied">
+                Applied
+            </option>
+
+            <option value="Interview">
+                Interview
+            </option>
+
+            <option value="Offer">
+                Offer
+            </option>
+
+            <option value="Rejected">
+                Rejected
+            </option>
+
+        </select>
+
+
+        <input 
+        type="text"
+        id="link"
+        placeholder="Job Link">
+
+
+        <textarea 
+        id="notes"
+        placeholder="Notes"></textarea>
+
+
+        <button>
+            Add Application
+        </button>
+
+
+    </form>
+
+
+     <h2>Your Applications</h2>
+
+
+<div class="filters">
+
+    <input 
+    type="text" 
+    id="search"
+    placeholder="Search company or role">
+
+
+    <select id="filterStatus">
+
+        <option value="All">
+            All Status
+        </option>
+
+        <option value="Applied">
+            Applied
+        </option>
+
+        <option value="Interview">
+            Interview
+        </option>
+
+        <option value="Offer">
+            Offer
+        </option>
+
+        <option value="Rejected">
+            Rejected
+        </option>
+
+    </select>
+
+</div>
+
+
+<div id="applications"></div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
