@@ -5,7 +5,11 @@ JobTrack is a full-stack web application that helps users manage and track their
 
 ## Application Preview
 
-![JobTrack Dashboard](screenshots/dashboard.png,dashboard1.png)
+## Application Preview
+
+![JobTrack Dashboard](./screenshots/dashboard.png)
+
+![JobTrack Dashboard 2](./screenshots/dashboard1.png)
 
 
 ## Features
